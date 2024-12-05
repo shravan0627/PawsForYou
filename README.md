@@ -26,17 +26,28 @@ PawsForU is a web application that connects pet lovers with pets in need of a ho
 
 PawsForU is built using the MERN stack (MongoDB, Express.js, React, Node.js).
 
+## Admin Login
+for the admin to login we have harcode it with specific credentials with the username being admin and the password being 123.
+We can also add more admin in the code to give access to other admins if present.
+
+## Can Access content without Login
+user can access the content without logging in, we have done this to make it similar with the other websites where login is not mandatory.
+and also for email we have put the validation to be universal not restriciting it opnly to northeastern mail so that anyone can adopt a pet.
+
 ## Installation
 
 Follow these steps to set up the project locally:
 
-1. Clone the repository: `git clone https://github.com/somanshh/paws-for-u.git`
-2. Install dependencies:
-   `cd server`
-   `npm install`
-4. Create a `.env` file in server with `mongooseURL` variable set to your MongoDB connection URL in the format `mongooseURL=mongodb://username:password@host:port/database_name`.
-5. Run the backend server: `nodemon server`.
-6. `cd ../client` `npm start` to start front end.
+
+1. Run Client:
+   cd Client
+   npm install
+   npm start
+
+2. Run Server
+   cd Server
+   npm install
+   npm start
 
 ### Additional Notes
 
